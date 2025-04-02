@@ -1,6 +1,12 @@
 // set as java application
 apply plugin: 'application'
 
+repositories {
+    mavenCentral()
+}
+dependencies {
+  implementation 'org.json:json:20210307'
+}
 //define main class
 mainClassName = 'SimpleServer'
 
